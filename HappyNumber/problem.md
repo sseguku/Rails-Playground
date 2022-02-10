@@ -27,3 +27,7 @@ Output: false
 ```
 
 Constraints:
+
+```
+1 <= n <= 231 - 1
+```
