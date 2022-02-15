@@ -13,10 +13,10 @@ Example 1:
 Input: n = 19
 Output: true
 Explanation:
-12 + 92 = 82
-82 + 22 = 68
-62 + 82 = 100
-12 + 02 + 02 = 1
+1^2 + 9^2 = 82
+8^2 + 2^2 = 68
+6^2 + 8^2 = 100
+1^2 + 0^2 + 02 = 1
 ```
 
 Example 2:
@@ -25,6 +25,23 @@ Example 2:
 Input: n = 2
 Output: false
 ```
+
+Example 3:
+Input: n = 14
+Explanation
+1^2 + 4^2 = 17
+1^2 + 7^2 = 1 + 49
+4^2 + 9^2 = 97
+9^2 + 7^2 = 130
+1^2 + 3^2 + 0^2 = 10
+1^2 + 0^2 = 1
+
+Example 4:
+Input: n = 1111111
+Explanation
+1+1+1+1+1+1+1 = 7
+
+Loop happens when n is repeated
 
 Constraints:
 

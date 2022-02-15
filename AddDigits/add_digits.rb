@@ -10,7 +10,7 @@ class AddDigit
             if b.size > 1 
                 a = b.sum 
                 a = a.to_s
-        b = a.split("").map(&:to_i)
+                b = a.split("").map(&:to_i)
             end
 
             break if b.size == 1
